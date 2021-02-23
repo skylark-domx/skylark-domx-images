@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["skylark-langx/skylark"],function(n){return n.attach("domx.images",function n(){return n})});
-//# sourceMappingURL=sourcemaps/images.js.map
+define(["./images"],function(e){return e.isLoaded=function(e){return e.complete&&0!==e.naturalWidth}});
+//# sourceMappingURL=sourcemaps/isLoaded.js.map
