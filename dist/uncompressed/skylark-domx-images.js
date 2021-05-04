@@ -118,8 +118,10 @@ define('skylark-domx-images/isLoaded',[
 define('skylark-domx-images/watch',[
     "skylark-langx/langx",
     "skylark-domx-eventer",
-    "./images"
-], function(langx,eventer,images) {
+    "./images",
+    "./isCompleted",
+    "./isLoaded"
+], function(langx,eventer,images,isCompleted,isLoaded) {
 
   function watch(imgs) {
     if (!langx.isArray(imgs)) {
