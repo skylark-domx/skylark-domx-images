@@ -6,4 +6,4 @@
  * @license MIT
  */
 define(["./images"],function(e){return e.isCompleted=function(e){return e.complete&&void 0!==e.naturalWidth}});
-//# sourceMappingURL=sourcemaps/isCompleted.js.map
+//# sourceMappingURL=sourcemaps/is-completed.js.map
